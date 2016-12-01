@@ -9,7 +9,7 @@ for (var i = 4096; i >= 1; i = i/2) {
 var president = ["George Washington", "John Adams", "Thomas Jefferson"]
  console.log (president);
  for (var i = 0; i < president.length; i++) {
- 	console.log("President#" + i + " was " + president[i]);
+ 	console.log("President#" + (i+1) + " was " + president[i]);
  }
 
  var antSpecies = {
